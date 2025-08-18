@@ -1,0 +1,16 @@
+@import "tailwindcss";
+/* .dropdown-menu {
+  position: static !important;
+  transform: none !important;
+  box-shadow: none !important;
+  margin-top: 0.5rem;
+} */
+ /* .element.style{
+  top: 8px;
+ } */
+  .permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
