@@ -6,6 +6,10 @@ import FirstSteps from './components/Main/FirstSteps'
 import KnowledgeBase from './components/Main/KnowledgeBase'
 import Survey from './components/Main/Survey'
 import Help from './components/Main/Help'
+import Fag from './components/Main/Fag'
+import Resources from './components/Main/Resources'
+import MapLocations from './components/Main/MapLocations'
+import Emergency from './components/Main/Emergency'
 
 
 function App() {
@@ -20,6 +24,10 @@ function App() {
           <Route path="/knowledgebase" element={<KnowledgeBase/>} />
           <Route path="/survey" element={<Survey/>} />
           <Route path="/help" element={<Help/>} />
+          <Route path="/fag" element={<Fag/>} />
+          <Route path="/resources" element={<Resources/>} />
+          <Route path="/mapLocations" element={<MapLocations/>} />
+          <Route path="/emergency" element={<Emergency/>} />
         </Route>
       </Routes>
       

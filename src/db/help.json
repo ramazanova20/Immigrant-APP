@@ -1,0 +1,90 @@
+{
+    "faq": [
+        {
+            "category": "Documents and Permits",
+            "questions": [
+                {
+                    "q": "How can I get a PESEL number?",
+                    "a": "You can obtain a PESEL number by applying in person at the Płock City Hall (Urząd Miasta Płocka) with your passport or residence permit."
+                },
+                {
+          "q": "What documents are required for a residence permit?",
+          "a": "You need an application form, biometric photo, rental agreement, proof of financial stability, and health insurance."
+        }
+            ]
+        },
+        {
+            "category": "Healthcare and Social Assistance",
+            "questions": [
+                {
+                  "q": "How can I register for free medical assistance?",
+                  "a": "You can register through the National Health Fund (NFZ) office in Płock to access public healthcare services."
+                },
+                {
+                  "q": "Are there social support programs for immigrants?",
+                  "a": "Yes, the Płock City Council and NGOs offer several assistance programs for immigrants and refugees."
+                }
+            ]
+        },
+        {
+            "category": "Transport and Mobility",
+            "questions": [
+                {
+                  "q": "How can I get a public transport card in Płock?",
+                  "a": "You can obtain the Płock City Card (Karta Miejska) at ticket offices, selected kiosks, or online through the municipal website."
+                },
+                {
+                  "q": "Which mobile apps can I use for transport?",
+                  "a": "You can use JakDojade, Koleo, and local ZTM Płock apps to plan routes and purchase tickets."
+                }
+            ]
+        }
+    ],
+    "resources": [
+        {
+            "title": "Official Government Websites",
+            "links": [
+                { "name": "Gov.pl", "url": "https://www.gov.pl/" },
+                { "name": "ePUAP", "url": "https://epuap.gov.pl/" },
+                { "name": "Office for Foreigners (UDSC)", "url": "https://udsc.gov.pl/" }
+            ]
+        },
+        {
+            "title": "Language Courses and Training",
+            "links": [
+                { "name": "Migrant Info", "url": "https://migrant.info.pl/" },
+                { "name": "Płock Multicultural Center", "url": "https://plock.eu/" }
+            ]
+        }
+    ],
+    "mapLocations": [
+        {
+          "name": "Płock Migration Office",
+          "address": "ul. Kolegialna 18, 09-402 Płock"
+        },
+        {
+          "name": "Mazovian State University",
+          "address": "ul. Gałczyńskiego 28, 09-400 Płock"
+        },
+        {
+          "name": "NFZ Healthcare Center",
+          "address": "ul. Tumska 4, 09-400 Płock"
+        }
+    ],
+    "emergency": [
+        {
+          "title": "Emergency Numbers",
+          "contacts": [
+            { "name": "General Emergency", "number": "112" },
+            { "name": "Police", "number": "997" },
+            { "name": "Medical Emergency", "number": "999" }
+          ]
+        },
+        {
+          "title": "Free Legal Assistance",
+          "contacts": [
+            { "name": "Immigrant Legal Support Line", "number": "+48 24 364 6200" }
+          ]
+        }
+    ]
+}

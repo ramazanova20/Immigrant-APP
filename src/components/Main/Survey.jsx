@@ -7,11 +7,11 @@ function Survey() {
             <h1 className='permanent-marker-regular text-6xl'
             >Survey</h1>
             <p>Please fill out the survey</p>
-            <div className='md:text-xl lg:text-2xl mb-12'>
+            <div className='md:text-2xl lg:text-3xl mb-12'>
                 <div className='m-auto'>
                     <p className='border-b-2 border-gray-200 font-bold'>1. Are you a foreigner?</p>
                     <form>
-                        <div className='flex w-full items-center text-center rounded-lg p-2 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100'>                    
+                      <div className='flex w-full items-center text-center rounded-lg p-2 transition-all hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100'>                    
                       <input type="radio" id="yes" name="first_answer" value="yes" />
                       <label className='ml-2' htmlFor="yes">Yes</label>
                       </div>

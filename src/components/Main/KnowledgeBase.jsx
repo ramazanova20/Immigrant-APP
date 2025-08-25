@@ -15,7 +15,7 @@ function KnowledgeBase() {
     <div>
       <div className="container lg:max-w-[1280px] mx-auto p-3 flex flex-col justify-between gap-7">
         <div>
-          <h1 className='text-center permanent-marker-regular text-xl'
+          <h1 className='text-center permanent-marker-regular text-3xl lg:text-6xl'
             >Knowledge Base</h1>
         <div className='mt-6 mb-14'>
             <Accordion collapseAll className='border-0 shadow-xl/30 shadow-amber-800'>

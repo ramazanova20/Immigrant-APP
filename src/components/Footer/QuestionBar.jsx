@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { FaSearch } from "react-icons/fa";
-import { FaMicrophone } from "react-icons/fa";
+import { FaSearch, FaMicrophone } from "react-icons/fa";
 
 function QuestionBar() {
   const [question, setQuestion] = useState("");
@@ -10,39 +9,37 @@ function QuestionBar() {
     e.preventDefault();
 
     if (question.trim()) {
-      setAnswer(`Quest: "${question}" answer...`);
+      setAnswer(`Q: "${question}" → Answer coming soon...`);
       setQuestion("");
     }
   };
 
   return (
-    <div className="w-full">
-    <div className="flex flex-col items-center p-1 max-w-[1280px] mx-auto justify-center bg-amber-500">
+    <div className="flex flex-col w-full">
       <form
         onSubmit={handleSubmit}
-        className="flex items-center bg-white text-gray-500 rounded-full shadow-lg px-3 py-2 md:py-3 lg:py-4 w-full max-w-screen shadow-amber-800"
+        className="flex items-center bg-white border border-gray-300 rounded-full shadow px-3 py-2"
       >
         <input
           type="text"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          placeholder="Ask your question..."
-          className="flex-1 outline-none "
+          placeholder="Ask me anything..."
+          className="flex-1 outline-none text-gray-700 px-2"
         />
-        <button type="submit" className="text-[#FF6C01] pr-4 lg:text-xl">
+        <button type="submit" className="text-[#FF6C01] hover:scale-110 transition-transform pr-2">
           <FaMicrophone />
         </button>
-        <button type="submit" className=" text-[#FF6C01] lg:text-xl">
+        <button type="submit" className="text-[#FF6C01] hover:scale-110 transition-transform">
           <FaSearch />
         </button>
       </form>
 
       {answer && (
-        <div className="mt-4 bg-gray-400 p-3 rounded-lg shadow w-full max-w-md">
+        <div className="mt-3 bg-[#FF6C01]/10 text-gray-800 p-3 rounded-lg shadow-inner text-sm">
           {answer}
         </div>
       )}
-    </div>
     </div>
   );
 }
